@@ -20,9 +20,9 @@ def getInputBoxValue():
 
 def startbot():
     bot = mineflayer.createBot({
-      'host': f'{host.get()}',
-      'port': port.get(),
-      'username': f'{nick.get()}'
+      'host': f'{REDAI.aternos.me()}',
+      'port': port.35411(),
+      'username': f'{STAFF()}'
     })
     @On(bot, "login")
     def login(this):
